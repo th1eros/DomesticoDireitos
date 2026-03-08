@@ -1,0 +1,26 @@
+# === Camada de Segurança e Organização (CISO/CIO) ===
+
+# Visual Studio: Ignorar cache e configurações locais
+.vs/
+*.user
+*.userosscache
+*.sln.docattachments
+.slnx
+*.suo
+*.user
+*.userosscache
+*.sln.docattachments
+
+# .NET: Ignorar pastas de compilação (Binários e Objetos)
+# Isso remove o erro de permissão e limpa o repositório
+**/bin/
+**/obj/
+
+# Publicação e pacotes
+publish/
+.nuget/
+node_modules/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
